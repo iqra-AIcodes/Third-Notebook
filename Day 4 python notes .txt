@@ -1,0 +1,65 @@
+Day 4 Python Notes
+
+Task 1: Simple Calculator
+Purpose: Take two numbers and an operation (+, -, *, /) and print the result.
+Key Concepts: input(), int(), if-elif-else.
+
+Example:
+Input: 10, 5, *
+Output: 50
+
+Tips & Tricks:
+Always convert input to numbers using int()
+Make sure to compare operations as text: "+" not +
+Mistakes to Avoid:
+Forgetting quotes around +, -, *, /
+Forgetting else condition for invalid input
+
+Task 2: Guessing Game
+Purpose: User guesses a secret number; program tells if it’s correct, too high, or too low
+Key Concepts: Conditions (if, elif, else), int().
+
+Example:
+Secret: 7, User guesses: 10 → Output: "Too high!"
+
+Tips & Tricks:
+Always convert input to number using int()
+Use elif for multiple conditions
+Mistakes to Avoid:
+Using = instead of ==
+Forgetting else for numbers smaller than secret
+
+Task 3: Even-Odd Counter
+Purpose: Count how many numbers are even or odd and optionally show them.
+Key Concepts: Loops (for), modulo %, lists, len().
+
+Example:
+Input numbers: 1, 2, 8 → Output: Even: 2 [2,8], Odd: 1 [1]
+
+Tips & Tricks:
+Initialize counters or lists before the loop
+Keep print statements outside the loop
+Use %2 to check even/odd
+Mistakes to Avoid:
+Resetting counters inside the loop
+Printing inside the loop by mistake
+
+Task 4: Simple Function
+Purpose: Create reusable code to greet someone by name.
+Key Concepts: def (function), parameters, reusable code, calling function multiple times.
+
+Example:
+Function: welcome(name) → welcome("Ali") → "Hello Ali, welcome to Python!"
+
+Tips & Tricks:
+Functions reduce repeated code
+You can take input from the user to make it interactive
+Mistakes to Avoid:
+Forgetting to define parameter in function
+Forgetting to call the function after defining
+General Tips 
+Always test your code with multiple inputs
+Use comments in code to explain your steps
+Check indentation carefully — Python is strict about it
+Small programs like these build logic and problem-solving skills
+
